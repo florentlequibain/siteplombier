@@ -1,0 +1,336 @@
+/*
+~~~~~~~~~~~~~~~~~~COMMON RULES~~~~~~~~~~~~~~~~~~~
+*/
+body
+{
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, a
+{
+  font-family: 'Lobster', cursive;
+}
+
+p, li
+{
+  font-family: 'Poiret+One', sans-serif;
+}
+
+.bandeau, .products
+{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+}
+
+header aside, header section
+{
+  vertical-align: top;
+}
+
+.lienpage
+{
+  opacity: 0.4;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF COMMON RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~HEADER RULES~~~~~~~~~~~~~~~~~~~
+  */
+header aside
+{
+  width: 25%;
+  height: 300px;
+}
+
+header aside img
+{
+  width: 100%;
+}
+
+header section
+{
+  width: 40%;
+  height: 300px;
+  margin-left: 15%;
+  background-image: url(../images/fondheader.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header section h1
+{
+  font-size: 3em;
+  text-align: center;
+  margin-top: 3.5em;
+}
+
+header aside, header section
+{
+  display: inline-block;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF HEADER RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~SECTION BANDEAU RULES~~~~~~~~~~~~~~~~~~~
+  */
+.bandeau
+{
+  width: 20%;
+  height: 1200px;
+}
+
+.bandeau nav
+{
+  border-radius: 5px;
+  height: 200px;
+}
+
+.bandeau nav a
+{
+  background-color: rgba(0,0,0,0.1);
+  font-size: 1.7em;
+  display: block;
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.bandeau nav a:hover, footer nav a:hover
+{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bandeau aside h4
+{
+  font-size: 2em;
+  text-align: center;
+}
+
+.bandeau aside h5
+{
+  font-size: 1em;
+  text-align: center;
+}
+
+.bandeau aside article
+{
+  background-color: rgba(0,174,195,1);
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 5px;
+}
+
+.bandeau aside article a
+{
+  display: block;
+  background-color: rgba(0, 123, 195,1);
+  width: 50%;
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.bandeau aside article a:hover
+{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF SECTION BANDEAU RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~SECTION PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
+  */
+.products
+{
+  width: 79%;
+  height: 1500px;
+  margin-top: 2em;
+}
+
+.products h2
+{
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 50%;
+  border-radius: 10px;
+}
+/*
+~~~~~~~~~~~~~~~~~~END OF SECTION PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
+*/
+
+
+
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~START OF ARTICLE PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
+*/
+.products article
+{
+  background-color:rgba(0,0,0,0.2);
+  width: 98%;
+  height: 450px;
+  border-radius: 10px;
+  margin:auto;
+}
+
+.products article div p
+{
+  font-size: 1.2em;
+  text-align: justify;
+  width: 50%;
+}
+
+.products article h3
+{
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.products article div
+{
+  height: 70%;
+  width: 100%;
+}
+
+.product article figure
+{
+  background-color: green;
+  margin:0;
+}
+
+.products article a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  display:block;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-top:2%;
+  border-radius: 10px;
+}
+
+.products article a:hover
+{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.products article div p, figure
+{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.products article p, .imageproduit
+{
+  vertical-align: top;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF ARTICLE PRODUCTS RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~DIV RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF DIV RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~FOOTER RULES~~~~~~~~~~~~~~~~~~~
+  */
+footer
+{
+  background-color: rgba(0,174,195,1);
+  height: 220px;
+  padding-top:1%;
+}
+
+footer figure
+{
+  width: 19%;
+}
+
+footer figure a
+{
+  margin-left: 10%;
+}
+
+footer nav
+{
+  border-radius: 5px;
+  height: 200px;
+  width: 25%;
+  background-color: white;
+}
+
+footer article
+{
+  background-color: white;
+  border-radius: 5px;
+  width: 25%;
+  text-align: center;
+}
+
+footer nav a
+{
+  background-color: rgba(0,0,0,0.1);
+  font-size: 1.7em;
+  display: block;
+  width: 80%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+footer figure, footer nav, footer article
+{
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  vertical-align: middle;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF FOOTER RULES~~~~~~~~~~~~~~~~~~~
+  */
