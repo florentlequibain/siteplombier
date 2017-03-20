@@ -90,6 +90,11 @@ nav li:hover
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
+
+.lienpage
+{
+  opacity: 0.6;
+}
   /*
   ~~~~~~~~~~~~~~~~~~END OF NAV RULES~~~~~~~~~~~~~~~~~~~
   */
@@ -146,6 +151,16 @@ section article img
   /*
   ~~~~~~~~~~~~~~~~~~FOOTER RULES~~~~~~~~~~~~~~~~~~~
   */
+footer
+{
+  background-color: rgba(0,0,0,0.1);
+}
+
+footer figure
+{
+  width: 12%;
+  height: 50px;
+}
 
   /*
   ~~~~~~~~~~~~~~~~~~END OF FOOTER RULES~~~~~~~~~~~~~~~~~~~
