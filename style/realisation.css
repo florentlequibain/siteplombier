@@ -104,9 +104,9 @@ nav li:hover
   /*
   ~~~~~~~~~~~~~~~~~~SECTION RULES~~~~~~~~~~~~~~~~~~~
   */
-section
+section h2
 {
-text-align: center;
+  text-align: center;
 }
   /*
   ~~~~~~~~~~~~~~~~~~END OF SECTION RULES~~~~~~~~~~~~~~~~~~~
@@ -115,34 +115,20 @@ text-align: center;
 
 
 /*
-~~~~~~~~~~~~~~~~~~SECTION ARTICLES RULES~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~SECTION FIGURE RULES~~~~~~~~~~~~~~~~~~~
 */
-section article
+section figure img
 {
   display: inline-block;
-  vertical-align: top;
-  background-color:rgba(0,0,0,0.1);
-  width:25%;
-  height:450px;
-  border-radius: 5px;
-  text-align: justify;
-  margin: 1%;
-  padding: 2%;
+  width: 90px;
 }
 
-section article h3
+section figure img:hover
 {
-  text-align: center;
+  transform: scale(5);
 }
-
-section article img
-{
-  display: block;
-  margin: auto;
-}
-
 /*
-~~~~~~~~~~~~~~~~~~END OF SECTION ARTICLES RULES~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~END OF SECTION FIGURE RULES~~~~~~~~~~~~~~~~~~~
 */
 
 
