@@ -1,0 +1,167 @@
+/*
+~~~~~~~~~~~~~~~~~~COMMON RULES~~~~~~~~~~~~~~~~~~~
+*/
+body
+{
+  margin: 0;
+}
+
+h1, h2, h3
+{
+  font-family: 'Righteous', cursive;
+}
+
+p
+{
+  font-family: 'Arapey', serif;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF COMMON RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~HEADER RULES~~~~~~~~~~~~~~~~~~~
+  */
+header
+{
+  background-image: url(../images/fond.jpg);
+  height: 350px;
+  text-align: center;
+  margin: 0;
+}
+
+
+h1
+{
+  font-size: 60px;
+  color: white;
+}
+
+figure
+{
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF HEADER RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~NAV RULES~~~~~~~~~~~~~~~~~~~
+  */
+nav
+{
+  border-bottom-style: solid;
+  border-color:rgba(0,0,0,0.2)
+}
+
+
+nav li
+{
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  margin-left:3%;
+}
+
+nav li a
+{
+  vertical-align: middle;
+  margin-top: 40%;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  color: black;
+}
+
+nav li:hover
+{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.lienpage
+{
+  opacity: 0.6;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF NAV RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~SECTION RULES~~~~~~~~~~~~~~~~~~~
+  */
+section
+{
+text-align: center;
+}
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF SECTION RULES~~~~~~~~~~~~~~~~~~~
+  */
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~SECTION ARTICLES RULES~~~~~~~~~~~~~~~~~~~
+*/
+section article
+{
+  display: inline-block;
+  vertical-align: top;
+  background-color:rgba(0,0,0,0.1);
+  width:25%;
+  height:450px;
+  border-radius: 5px;
+  text-align: justify;
+  margin: 1%;
+  padding: 2%;
+}
+
+section article h3
+{
+  text-align: center;
+}
+
+section article img
+{
+  display: block;
+  margin: auto;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~END OF SECTION ARTICLES RULES~~~~~~~~~~~~~~~~~~~
+*/
+
+
+
+
+  /*
+  ~~~~~~~~~~~~~~~~~~FOOTER RULES~~~~~~~~~~~~~~~~~~~
+  */
+footer
+{
+  background-color: rgba(0,0,0,0.1);
+}
+
+footer figure
+{
+  width: 12%;
+  height: 50px;
+}
+
+  /*
+  ~~~~~~~~~~~~~~~~~~END OF FOOTER RULES~~~~~~~~~~~~~~~~~~~
+  */
