@@ -99,16 +99,42 @@ nav li:hover
   /*
   ~~~~~~~~~~~~~~~~~~SECTION RULES~~~~~~~~~~~~~~~~~~~
   */
-
+section
+{
+text-align: center;
+}
   /*
   ~~~~~~~~~~~~~~~~~~END OF SECTION RULES~~~~~~~~~~~~~~~~~~~
   */
 
 
 
-  /*
-  ~~~~~~~~~~~~~~~~~~SECTION ARTICLES RULES~~~~~~~~~~~~~~~~~~~
-  */
+/*
+~~~~~~~~~~~~~~~~~~SECTION ARTICLES RULES~~~~~~~~~~~~~~~~~~~
+*/
+section article
+{
+  display: inline-block;
+  vertical-align: top;
+  background-color:rgba(0,0,0,0.1);
+  width:25%;
+  height:450px;
+  border-radius: 5px;
+  text-align: justify;
+  margin: 1%;
+  padding: 2%;
+}
+
+section article h3
+{
+  text-align: center;
+}
+
+section article img
+{
+  display: block;
+  margin: auto;
+}
 
 /*
 ~~~~~~~~~~~~~~~~~~END OF SECTION ARTICLES RULES~~~~~~~~~~~~~~~~~~~
